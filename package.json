@@ -1,0 +1,31 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuydev1704/traning-server.git"
+  },
+  "author": "nhuydev1704 <khanhandli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhuydev1704/traning-server/issues"
+  },
+  "homepage": "https://github.com/nhuydev1704/traning-server#readme",
+  "scripts": {
+    "format": "prettier --write .",
+    "dev": "lerna run dev",
+    "build:pkg": "lerna run build:pkg",
+    "clean": "lerna run clean:unix"
+ },
+  "keywords": [],
+  "description": ""
+}
